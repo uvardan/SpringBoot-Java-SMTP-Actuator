@@ -16,7 +16,7 @@ public class SendEmailService {
 
         System.out.println("#################################### Sending email ##################################");
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-        simpleMailMessage.setFrom("uvardan427@gmail.com");
+        simpleMailMessage.setFrom("from@gmail.com");
         simpleMailMessage.setTo(to);
         simpleMailMessage.setSubject(topic);
         simpleMailMessage.setText(body);
