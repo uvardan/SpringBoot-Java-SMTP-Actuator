@@ -14,6 +14,6 @@ public class EmailController {
 
     @RequestMapping(value = "/sendemail")
     public void sendEmail() {
-        sendEmailService.sendEmail("uvardan@hotmail.com","Hello testing", "SMTP");
+        sendEmailService.sendEmail("to@email.com","Hello testing", "SMTP");
     }
 }
